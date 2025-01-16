@@ -8,9 +8,9 @@ function ContentMovieCarousel() {
           <div className="row">
             <div className="col-lg-6">
               <div className="section-heading">
-                <h2>Discover Our <em>Work</em> &amp; <span>Projects</span></h2>
-                <div className="line-dec"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod.</p>
+                <h2>Popüler <span>Filmler</span></h2>
+                <div className="line-dec" style={{width: '150px'}}></div>
+               
               </div>
             </div>
           </div>

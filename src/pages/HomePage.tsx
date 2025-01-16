@@ -31,15 +31,15 @@ function HomePage() {
         <ContentMovieCarousel />
       </div>
       <footer>
-    <div className="container">
-      <div className="col-lg-12">
-        <p>Copyright © 2025 <a href="#">CineHub</a>. All rights reserved.
-        
-        Bizi Tercih Ettiğiniz İçin Teşekkür Ederiz...
-        </p>
-      </div>
-    </div>
-  </footer>
+        <div className="container">
+          <div className="col-lg-12">
+            <p>Copyright © 2025 <a href="#">CineHub</a>. All rights reserved.
+
+              Bizi Tercih Ettiğiniz İçin Teşekkür Ederiz...
+            </p>
+          </div>
+        </div>
+      </footer>
     </>
 
 
