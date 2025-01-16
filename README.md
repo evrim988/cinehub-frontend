@@ -8,3 +8,4 @@ npm install @reduxjs/toolkit
 
 npm i react-router-dom
 
+npm install react-owl-carousel owl.carousel
