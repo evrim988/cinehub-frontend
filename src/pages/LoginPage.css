@@ -1,0 +1,121 @@
+.login-container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background: #f5f5f5;
+}
+
+.form-section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 600;
+}
+
+.form-section p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+}
+
+.form-section input {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+.form-section input:focus {
+    border-color: purple;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+}
+
+.form-section button {
+    padding: 12px;
+    background: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.form-section button:hover {
+    background: #3700b3;
+}
+
+.image-section {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.overlay h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.overlay p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.password-container input {
+    width: 100%;
+    padding-right: 40px; /* İkona yer açmak için */
+}
+
+.toggle-password-icon {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #888;
+    font-size: 18px;
+}
+
+.toggle-password-icon:hover {
+    color: #333;
+}

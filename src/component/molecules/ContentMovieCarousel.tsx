@@ -44,13 +44,11 @@ function ContentMovieCarousel() {
         );
         const data = await response.json();
 
-        console.log('Fetched data:', data); // Check the response data
-
         // Extracting movie data from the response
         const moviesData: IMovie[] = data.results.map((movie: any) => ({
           id: movie.id,
           title: movie.title,
-          poster_path: `https://image.tmdb.org/t/p/w500${movie.poster_path}`, // Full URL for poster image
+          poster_path: `https://image.tmdb.org/t/p/w500${movie.poster_path}`, 
           overview: movie.overview,
         }));
 
@@ -83,7 +81,7 @@ function ContentMovieCarousel() {
         <div className="row">
           <div className="col-lg-12">
           {loading ? (
-              <div className="loading-message">Yükleniyor...</div> // Display loading message
+              <div className="loading-message">Yükleniyor...</div> 
             ) : (
               <OwlCarousel className="owl-carousel" {...options}>
                 {movies.map((movie) => (

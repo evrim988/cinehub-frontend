@@ -30,10 +30,17 @@ function HomePage() {
       <div className="projects section" id="projects">
         <ContentMovieCarousel />
       </div>
-      <footer>
+
+      <div className="projects section" id="projects">
+      </div>
+
+      <div className="projects section" id="projects">
+     
+      </div>
+      <footer style={{backgroundColor: 'purple'}}>
         <div className="container">
           <div className="col-lg-12">
-            <p>Copyright © 2025 <a href="#">CineHub</a>. All rights reserved.
+            <p style={{color: 'white'}}>Copyright © 2025 <a href="#" style={{color: 'white'}}>CineHub</a> . All rights reserved<br />
 
               Bizi Tercih Ettiğiniz İçin Teşekkür Ederiz...
             </p>
