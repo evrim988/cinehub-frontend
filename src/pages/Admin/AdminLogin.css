@@ -1,0 +1,77 @@
+
+.login-card {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.x-logo {
+  max-width: 120px;
+  margin-bottom: 10px;
+}
+
+.signup-title {
+  font-family: "Grechen Fuemen", serif;
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.input-label {
+  font-family: "Montserrat", serif;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #727272;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #333;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn-dark {
+  font-family: "Montserrat", serif;
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.btn-dark:hover {
+  background-color: #222;
+}
+
+.x-input {
+  font-size: 13px;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.password-icon {
+  position: absolute;
+  top: 70%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: gray;
+}
+
+.password-icon:hover {
+  color: black;
+}
