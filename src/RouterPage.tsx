@@ -8,6 +8,8 @@ import AdminLogin from './pages/Admin/AdminLogin'
 import { useDispatch } from 'react-redux'
 import { CineHubDispatch, CineHubUseSelector } from './store'
 import { adminLogin } from './store/feature/adminSlice'
+import MovieList from './component/organism/MovieList'
+import MovieManagementPage from './pages/Admin/MovieManagementPage'
 
 function RouterPage() {
 
@@ -30,6 +32,7 @@ function RouterPage() {
 
                 <Route path='/admin' element={ isAdminLogin ? <AdminPage /> : <AdminLogin /> } />
                 <Route path='/adminlogin' element={ <AdminLogin /> } />
+                <Route path='/movie-list' element={ isAdminLogin ? <MovieManagementPage /> : <AdminLogin /> } />
 
 
                 <Route path='/register' element={ <RegisterPage /> } />

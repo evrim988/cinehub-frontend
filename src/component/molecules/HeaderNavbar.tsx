@@ -20,7 +20,7 @@ function HeaderNavbar() {
             <div className="row">
                 <div className="col-12">
                     <nav className="main-nav">
-                        <img src={logo} style={{ width: '350px', height: '125px' }} />
+                        <img src={logo} style={{ width: '350px', height: '120px' }} />
 
                         <ul className="nav">
                             <button className='btn btn-outline-light mt-4 ms-3' style={{width: '150px', height: '50px'}} onClick={handleRegisterNavigate} >Kayıt Ol</button>

@@ -57,7 +57,7 @@ function SideBarMenu() {
                         <li className="nav-item ">
                             <a  className="nav-link">
                                 <i className="fa-solid fa-list fa-sm"></i>
-                                <span className='ms-2'>Film Listesi</span>
+                                <NavLink to="/movie-list" className='ms-2'>Film Yönetimi</NavLink>
                             </a>
                         </li>
                         
